@@ -1,0 +1,46 @@
+[
+  {
+    "userID": 101,
+    "name": "Avery Johnson",
+    "contact": "avery.johnson@example.com",
+    "age": 29,
+    "role": "Product Manager"
+  },
+  {
+    "userID": 102,
+    "name": "Jordan Lee",
+    "contact": "jordan.lee@example.net",
+    "age": 34,
+    "role": "UI/UX Designer"
+  },
+  {
+    "userID": 103,
+    "name": "Taylor Smith",
+    "contact": "taylor.smith@example.org",
+    "age": 25,
+    "role": "Data Scientist"
+  },
+  {
+    "userID": 104,
+    "name": "Morgan Brown",
+    "contact": "morgan.brown@example.edu",
+    "age": 31,
+    "role": "Full Stack Developer"
+  },
+  {
+    "userID": 105,
+    "name": "Casey Wilson",
+    "contact": "casey.wilson@example.io",
+    "age": 27,
+    "role": "Business Analyst"
+  },
+  {
+    "userID": 106,
+    "name": "Reese Taylor",
+    "contact": "reese.taylor@example.co.uk",
+    "age": 40,
+    "role": "DevOps Engineer"
+  },
+  {},
+  {}
+]
