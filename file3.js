@@ -82,12 +82,19 @@ app.delete("/delete/:id", (req, res) => {
     let data = readData();
 
     // Filter out the user to delete
+    // Use the filter method to remove the user with the specified ID
+    // `parseInt(id)` converts the `id` string to a number for comparison.
+    // The `filter` method creates a new array containing all users whose `userID` does not match the provided `id`.
     const filteredData = data.filter((user) => user.userID !== parseInt(id));
+     // Check if the user to delete was not found in the original data
     if (data.length === filteredData.length) {
         return res.status(404).send("User not found!");
     }
 
+    // Write the updated data (filtered array) back to the JSON file
     writeData(filteredData); // Save updated data to the JSON file
+
+    // Respond to the client indicating successful deletion
     res.send("User deleted successfully!");
 });
 
